@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="visible">
+
+
+    <ImageView
+        android:id="@+id/img_carro"
+        android:layout_width="305dp"
+        android:layout_height="126dp"
+        android:layout_weight="1"
+        android:contentDescription="TODO"
+        app:srcCompat="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_marcanome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_marcanome" />
+
+        <Button
+            android:id="@+id/btn_detalhes"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="@string/btn_detalhes"
+            android:textSize="8sp"
+            tools:text="Detalhes" />
+
+        <TextView
+            android:id="@+id/txt_preco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_preco" />
+
+        <ImageButton
+            android:id="@+id/btn_comprar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="false"
+            android:background="@color/cardview_light_background"
+            android:contentDescription="TODO"
+            android:cropToPadding="false"
+            android:scaleType="centerCrop"
+            app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+    </LinearLayout>
+
+</LinearLayout>
