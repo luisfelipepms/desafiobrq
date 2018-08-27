@@ -26,7 +26,9 @@
             android:id="@+id/txt_marcanome"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/txt_marcanome" />
+            android:text="@string/txt_marcanome"
+            tools:text="Marca Modelo"
+            tools:textColor="@android:color/black" />
 
         <Button
             android:id="@+id/btn_detalhes"
@@ -40,7 +42,8 @@
             android:id="@+id/txt_preco"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/txt_preco" />
+            android:text="@string/txt_preco"
+            tools:text="Preço" />
 
         <ImageButton
             android:id="@+id/btn_comprar"
