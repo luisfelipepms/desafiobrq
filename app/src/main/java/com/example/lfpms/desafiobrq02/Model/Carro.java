@@ -2,7 +2,9 @@ package com.example.lfpms.desafiobrq02.Model;
 
 import com.google.gson.annotations.SerializedName;
 
-public class Carro {
+import java.io.Serializable;
+
+public class Carro implements Serializable{
 
     @SerializedName("id")
     private int id;

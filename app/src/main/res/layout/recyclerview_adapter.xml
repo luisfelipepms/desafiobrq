@@ -14,13 +14,14 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_height="200sp"
+            android:orientation="horizontal"
+            android:padding="10sp">
 
             <ImageView
                 android:id="@+id/img_carro"
-                android:layout_width="104dp"
-                android:layout_height="103dp"
+                android:layout_width="162dp"
+                android:layout_height="181dp"
                 android:layout_marginStart="12dp"
                 android:contentDescription="@string/imagemCarro"
                 app:srcCompat="@android:color/darker_gray" />
@@ -36,6 +37,7 @@
                     android:id="@+id/txt_marcanome"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="6sp"
                     android:layout_marginStart="0dp"
                     android:text="@string/marcanome"
                     android:textColor="@android:color/black" />
@@ -44,17 +46,30 @@
                     android:id="@+id/txt_preco"
                     android:layout_width="167dp"
                     android:layout_height="wrap_content"
+                    android:layout_margin="6sp"
                     android:text="@string/preco"
                     android:textColor="@android:color/black" />
 
                 <Button
                     android:id="@+id/btb_detalhes"
-                    android:layout_width="wrap_content"
+                    android:layout_width="113dp"
                     android:layout_height="27dp"
+                    android:layout_margin="6sp"
                     android:layout_marginEnd="83dp"
                     android:height="10dp"
                     android:paddingTop="4dp"
                     android:text="@string/detalhes"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/btb_comprar"
+                    android:layout_width="114dp"
+                    android:layout_height="27dp"
+                    android:layout_margin="6sp"
+                    android:layout_marginEnd="83dp"
+                    android:height="10dp"
+                    android:paddingTop="4dp"
+                    android:text="@string/btn_comprar"
                     android:textSize="12sp" />
 
 

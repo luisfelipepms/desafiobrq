@@ -7,4 +7,6 @@
     <string name="preco">Preço</string>
     <string name="imagemCarro">Imagem do Carro</string>
     <string name="detalhes">DETALHES</string>
+    <string name="btn_comprar">Comprar</string>
+    <string name="voltar">Voltar</string>
 </resources>
