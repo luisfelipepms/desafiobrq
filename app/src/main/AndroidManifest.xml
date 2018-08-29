@@ -18,7 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ActivityDetalhes"></activity>
+        <activity android:name=".ActivityDetalhes" />
+        <activity android:name=".ActivityCarrinho"></activity>
     </application>
 
 </manifest>

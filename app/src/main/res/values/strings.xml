@@ -9,4 +9,5 @@
     <string name="detalhes">DETALHES</string>
     <string name="btn_comprar">Comprar</string>
     <string name="voltar">Voltar</string>
+    <string name="carrinho">Carrinho</string>
 </resources>
