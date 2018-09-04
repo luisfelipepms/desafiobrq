@@ -77,7 +77,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
             img_carro = (ImageView)itemView.findViewById(R.id.img_carro);
             btn_detalhes = (Button)itemView.findViewById(R.id.btb_detalhes);
         }
-
+        
     }
 
 }

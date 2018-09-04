@@ -1,8 +1,5 @@
 <resources>
     <string name="app_name">DesafioBRQ02</string>
-    <string name="txt_marcanome" />
-    <string name="btn_detalhes">DETALHES</string>
-    <string name="txt_preco" />
     <string name="marcanome">MarcaNome</string>
     <string name="preco">Preço</string>
     <string name="imagemCarro">Imagem do Carro</string>
